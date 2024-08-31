@@ -72,6 +72,12 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 # Whitenoise settings
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:3000",  # Your React development server
+    "https://managelab-production.up.railway.app",
+    "https://managelab-production.up.railway.app/",
+]
+
 CORS_ALLOW_ALL_ORIGINS = True 
 
 CORS_ALLOW_CREDENTIALS = True
