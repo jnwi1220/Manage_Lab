@@ -1,1 +1,1 @@
-web: gunicorn task_manager.wsgi --log-file -
+web: daphne -p $PORT task_manager.asgi:application
