@@ -78,6 +78,8 @@ CORS_ALLOWED_ORIGINS = [
     'https://66d2fe001cdaaefff195430a--incandescent-fox-1b568e.netlify.app',
 ]
 
+CORS_ALLOW_ALL_ORIGINS = True
+
 ROOT_URLCONF = "task_manager.urls"
 
 TEMPLATES = [
