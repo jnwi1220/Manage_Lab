@@ -72,12 +72,8 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 # Whitenoise settings
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
-CORS_ALLOWED_ORIGINS = [
-    'http://localhost:3000',
-    'https://66d2fe001cdaaefff195430a--incandescent-fox-1b568e.netlify.app',
-]
-
 CORS_ALLOW_ALL_ORIGINS = True 
+
 CORS_ALLOW_CREDENTIALS = True
 
 ROOT_URLCONF = "task_manager.urls"
