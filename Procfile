@@ -1,2 +1,1 @@
-release: python manage.py collectstatic --noinput
-web: export DJANGO_SETTINGS_MODULE=task_manager.settings && daphne -p $PORT task_manager.asgi:application
+web: daphne task_manager.asgi:application --port $PORT --bind 0.0.0.0
