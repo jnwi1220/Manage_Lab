@@ -74,7 +74,8 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
-    'https://66d2fe001cdaaefff195430a--incandescent-fox-1b568e.netlify.app',
+    'http://localhost:3001',
+    'https://incandescent-fox-1b568e.netlify.app/',
 ]
 
 ROOT_URLCONF = "task_manager.urls"
