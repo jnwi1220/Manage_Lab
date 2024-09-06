@@ -27,7 +27,7 @@ SECRET_KEY = "django-insecure-mo7$myszj%rlae#n&^z3^e&(%7amck69lzxu!y5=%45coba92z
 DEBUG = False
 
 ALLOWED_HOSTS = ['managelab-production.up.railway.app', 'localhost']
-
+CSRF_TRUSTED_ORIGINS = [ 'https://managelab-production.up.railway.app']
 
 # Application definition
 
